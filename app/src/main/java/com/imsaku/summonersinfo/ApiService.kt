@@ -10,8 +10,8 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Path
 
-// TODO: RIOT GAMES API KEY
-private const val API_KEY = "YOUR API KEY"
+// TODO: NEED YOUR API KEY
+private const val API_KEY = BuildConfig.API_KEY
 // Platform Server : JP
 private const val BASE_URL = "https://jp1.api.riotgames.com/"
 
